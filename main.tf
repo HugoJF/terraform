@@ -8,3 +8,7 @@ provider "aws" {
 resource "aws_s3_bucket" "test" {
   bucket = "an-insanely-cool-bucket-name-nobody-owns"
 }
+
+resource "aws_s3_bucket" "test2" {
+  bucket = "an-insanely-cool-bucket-name-nobody-own2s"
+}
